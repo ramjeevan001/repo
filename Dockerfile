@@ -1,8 +1,8 @@
 FROM alpine
 
-WORKDIR /home/jenkins/workspace/My_Pro
+WORKDIR /app
 
-ADD . /app.sh
+ADD . /app
 
 EXPOSE 80
 
