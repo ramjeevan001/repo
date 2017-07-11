@@ -8,4 +8,4 @@ EXPOSE 80
 
 CMD ["chmod", "+x", "app.sh"]
 
-CMD ["./app.sh"]
+CMD ["app.sh"]
